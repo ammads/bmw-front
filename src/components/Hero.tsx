@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="text-center space-y-6 px-4">
           <h1 className="text-5xl md:text-7xl font-bold">BMWMDZ</h1>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-            Únete a la comunidad definitiva de entusiastas de BMW. Comparte tu pasión, conéctese con otros y experimenta la alegría de impulsar la excelencia.
+            Únete a la comunidad definitiva de entusiastas de BMW. Comparte tu pasión, conéctate con otros y experimenta la alegría de impulsar la excelencia.
           </p>
           <button className="bg-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
            Únete
