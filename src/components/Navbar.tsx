@@ -17,26 +17,26 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-8">
           <Link 
             to="/cars" 
-            className="flex items-center hover:text-blue-400 transition-colors text-base font-medium"
+            className="flex items-center hover:text-blue-400 transition-colors text-base font-medium pointer-events-none"
           >
             Coches
           </Link>
           <Link 
             to="/events" 
-            className="flex items-center hover:text-blue-400 transition-colors text-base font-medium"
+            className="flex items-center hover:text-blue-400 transition-colors text-base font-medium pointer-events-none"
           >
             Eventos
           </Link>
           <Link 
             to="/members" 
-            className="flex items-center hover:text-blue-400 transition-colors text-base font-medium"
+            className="flex items-center hover:text-blue-400 transition-colors text-base font-medium pointer-events-none"
           >
             Miembros
           </Link>
           {user ? (
             <button
               onClick={logout}
-              className="flex items-center space-x-2 hover:text-blue-400 transition-colors text-base font-medium"
+              className="flex items-center space-x-2 hover:text-blue-400 transition-colors text-base font-medium pointer-events-none"
             >
               <LogOut className="w-5 h-5" />
               <span>Logout</span>
@@ -44,7 +44,7 @@ export default function Navbar() {
           ) : (
             <Link 
               to="/login" 
-              className="flex items-center bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition-colors text-base font-medium"
+              className="flex items-center bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition-colors text-base font-medium pointer-events-none"
             >
               Login
             </Link>

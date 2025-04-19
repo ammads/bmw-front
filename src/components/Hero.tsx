@@ -18,9 +18,12 @@ export default function Hero() {
           <p className="text-xl md:text-2xl max-w-2xl mx-auto">
             Únete a la comunidad definitiva de entusiastas de BMW. Comparte tu pasión, conéctate con otros y experimenta la alegría de impulsar la excelencia.
           </p>
-          <button className="bg-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
+          <button disabled className="bg-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
            Únete
           </button>
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto">
+            Actualmente estamos trabajando en la página web, pero contáctanos por nuestro instagram: https://www.instagram.com/bmwmadriz?igsh=MW9uNWpvYWRhcTV3cQ==
+          </p>
         </div>
       </div>
     </div>
